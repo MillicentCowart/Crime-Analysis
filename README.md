@@ -5,6 +5,19 @@
 
 
 ---
+#  Files
+
+## 📂 Cleaning.DR_NO.sql  
+**Field:** DR_NO → ReportID  
+
+- Created second dataset for cleaning while preserving the original data
+- Converted from string to INT  
+- Renamed for clarity and consistency 
+- Checked for duplicates and NULLS(none found)  
+- Validated range and reviewed outliers  
+
+
+---
 
 ## Objective
 
