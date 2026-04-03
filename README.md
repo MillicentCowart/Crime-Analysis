@@ -7,13 +7,6 @@
 ---
 #  Files
 
-## 📂 Cleaning.DR_NO.sql  
-**Field:** DR_NO → ReportID  
-
-- The dataset crime_raw was duplicated with the new name crime_clean for the purposes of cleaning the data and preserving its original form.
-
-- DR_NO was renamed to ReportID and changed from a string to an integer. There are no NULLS or duplicates. Although the range [817, 252104146] has a minimal amount of observations on the low end (those with less than six digits), there seems to be no reason to eliminate reccords based on ReportID.
-
 
 
 ---
@@ -40,19 +33,21 @@ The objective of this project is to:
 ## 🛠 Tools & Technologies
 
 * SQL Server
-* Excel / CSV (data preview)
+* 
 * 
 
 ---
 
-## 🧹 Data Cleaning
+#  Cleaning Files
 
-Steps taken to prepare the data:
+## 📂 Cleaning.DR_NO.sql  
+**Field:** DR_NO → ReportID  
 
-* Removed null or missing values
-* Standardized date and time formats
-* Cleaned inconsistent crime type labels
-* Verified location data integrity
+- The dataset crime_raw was duplicated with the new name crime_clean for the purposes of cleaning the data and preserving its original form.
+
+- DR_NO was renamed to ReportID and changed from a string to an integer. There are no NULLS or duplicates. Although the range [817, 252104146] has a minimal amount of observations on the low end (those with less than six digits), there seems to be no reason to eliminate reccords based on ReportID.
+
+
 
 ---
 
