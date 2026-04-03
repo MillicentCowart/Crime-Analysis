@@ -9,12 +9,8 @@
 
 ## 📂 Cleaning.DR_NO.sql  
 **Field:** DR_NO → ReportID  
+DR_NO was renamed to ReportID and changed from a string to an integer. There are no NULLS or duplicates. Although the range [817, 252104146] has a minimal amount of observations on the low end (those with less than six digits), there seems to be no reason to eliminate reccords based on ReportID.
 
-- Created second dataset for cleaning while preserving the original data
-- Converted from string to INT  
-- Renamed for clarity and consistency 
-- Checked for duplicates and NULLS(none found)  
-- Validated range and reviewed outliers  
 
 
 ---
