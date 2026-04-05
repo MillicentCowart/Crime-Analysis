@@ -27,7 +27,7 @@ The objective of this project is to:
 
 ##  Dataset
 **Source:** Kaggle Crime Dataset Link: https://www.kaggle.com/datasets/ishajangir/crime-data/data
-* My dataset: crime_clean
+**My Dataset:** crime_clean
 
 ### Column Descriptions: crime__clean dataset
 - **customerID** → Unique identifier for each customer  
