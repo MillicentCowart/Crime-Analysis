@@ -9,7 +9,7 @@
 * 📂 Cleaning.DR_NO.sql  ➡️ Cleaning of DR_NO → ReportID
 * 📂 Cleaning.Date_Rptd.sql  ➡️ Cleaning of Date_Rptd → ReportDate
 * 📂 Cleaning.DATE_OCC.TIME_OCC.sql  ➡️ Cleaning of DATE_OCC → DateOfCrime and TIME_OCC → TimeOfCrime
-
+* 📂 Cleaning.AREA.AREA_NAME.sql  ➡️ Cleaning of AREA → LAPDdivisionID and AREA_NAME → LAPDdivision
 
 ---
 
