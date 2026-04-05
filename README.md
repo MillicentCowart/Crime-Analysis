@@ -27,10 +27,8 @@
 
 The objective of this project is to:
 
-* Determine if there is a correlation between time and location.
-* Determine if there is a correlation between type of crime and location.
-* Contextualize crime rates by categorizing them by crime type. 
-* Conduct time based trend analysis.
+* Clean dataset fields and create organized views. 
+* Answer key questions.
 
 ---
 
