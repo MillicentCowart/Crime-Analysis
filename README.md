@@ -33,8 +33,8 @@ The objective of this project is to:
 ---
 
 ##  Dataset
-**Source:** Kaggle Crime Dataset Link: https://www.kaggle.com/datasets/ishajangir/crime-data/data
-**My Dataset:** crime_clean
+- **Source:** Kaggle Crime Dataset Link: https://www.kaggle.com/datasets/ishajangir/crime-data/data
+- **My Dataset:** crime_clean
 
 ### crime__clean Column Descriptions:
 - **ReportID** → [INT]unique identifier for each report.
