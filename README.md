@@ -29,7 +29,7 @@ The objective of this project is to:
 **Source:** Kaggle Crime Dataset Link: https://www.kaggle.com/datasets/ishajangir/crime-data/data
 **My Dataset:** crime_clean
 
-### Column Descriptions: crime__clean dataset
+### crime__clean Column Descriptions:
 - **customerID** → Unique identifier for each customer  
 - **gender** → Male or Female  
 - **SeniorCitizen** → Whether the customer is a senior citizen  
