@@ -5,6 +5,15 @@
 
 ---
 
+##  Key Questions
+
+1. Where should law enforcement focus patrols based on peak crime times(day, week, month, season)?
+2. What are the most common crime types and which are are driving overall crime rates the most?
+3. Are there correlations between location and type of crime?
+4. Are there emerging trends that indicate a shift in crime patterns(from 2020 to now)?
+
+---
+
 ## Files in this Repository
 
 - `Cleaning.DR_NO.sql` → Cleaning of DR_NO ➡️ ReportID  
@@ -53,7 +62,7 @@ The objective of this project is to:
 - **Churn** → Whether the customer left the company
 ---
 
-## 🛠 Tools & Technologies
+##  Tools & Technologies
 
 * SQL Server
 * 
@@ -66,7 +75,7 @@ The objective of this project is to:
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 
 Key areas explored:
 
@@ -76,24 +85,8 @@ Key areas explored:
 
 ---
 
-## 📈 Key Questions
 
-1. Where should law enforcement focus patrols based on peak crime times(day, week, month, season)?
-2. What are the most common crime types and which are are driving overall crime rates the most?
-3. Are there correlations between location and type of crime?
-4. Are there emerging trends that indicate a shift in crime patterns(from 2020 to now)?
-
----
-
-## 🧠 Advanced Analysis
-
-* Which areas consistently rank in the top 5 for crime? (window functions)
-* Identifying trends over time (last key question)
-* Comparing crime patterns across locations
-
----
-
-## 📊 Key Insights
+##  Key Insights
 
 * 
 * 
@@ -101,25 +94,17 @@ Key areas explored:
 
 ---
 
-## 📌 Conclusion
+##  Conclusion
 
 
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 * Add geospatial mapping (heatmaps)
 * Build a dashboard (Tableau/Power BI)
 * Perform predictive analysis
 
----
-
-## 📂 Project Structure
-
-* /data → raw dataset
-* /sql → SQL queries
-* /results → outputs/screenshots
-* README.md → project documentation
 
 ---
