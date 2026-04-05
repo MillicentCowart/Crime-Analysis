@@ -27,10 +27,10 @@
 
 The objective of this project is to:
 
-* Analyze crime incident data using SQL
-* Identify spatial and temporal patterns
-* Detect high-risk areas
-* Generate insights that support data-driven decision-making in crime prevention
+* Determine if there is a correlation between time and location.
+* Determine if there is a correlation between type of crime and location.
+* Contextualize crime rates by categorizing them by crime type. 
+* Conduct time based trend analysis.
 
 ---
 
