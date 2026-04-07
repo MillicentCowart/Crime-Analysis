@@ -40,7 +40,7 @@ The objective of this project is to:
 ## crime__clean Column Descriptions:
 - **ReportID** → [INT]unique identifier for each report.
 - **ReportDate** → [DATE]date crime was reported, YY/MM/DD. January 1, 2020 to March 28, 2025. 
-- **DateOfCrime** → [DATE]date the crime occured, YY/MM/DD. January 1, 2020 to March 27, 2025.
+- **DateOfCrime** → [DATE]date the crime ocurred, YY/MM/DD. January 1, 2020 to March 27, 2025.
 - **TimeOFCrime** → [TIME]time of crime, HH:MM, twenty-four hour format.
 - **LAPDdivisionID** → [INT]numerical code for LAPD division. 
 - **LAPDdivision** → [VARCHAR,500]name of LAPD division.
