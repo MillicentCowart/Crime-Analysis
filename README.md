@@ -44,6 +44,7 @@ The objective of this project is to:
 - **TimeOFCrime** → [TIME]time of crime, HH:MM, twenty-four hour format.
 - **LAPDdivisionID** → [INT]numerical code for LAPD division. 
 - **LAPDdivision** → [VARCHAR,500]name of LAPD division.
+- **ReportDistID** → [INT]reporting district code number for the incident.
 ---
 
 ##  Tools & Technologies
