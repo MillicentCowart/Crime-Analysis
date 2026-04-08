@@ -22,7 +22,7 @@
 - `Cleaning.AREA.AREA_NAME.sql` → Cleaning of AREA ➡️ LAPDdivisionID and AREA_NAME ➡️ LAPDdivision
 - `Cleaning.Rpt_Dist_No.sql` → Cleaning of Rpt_Dist_No ➡️ ReportDistID
 - `Cleaning.Part_1-2.sql` → Cleaning of Part_1-2 ➡️ CrimeClass 
-
+- `Cleaning.Crm_Cd.Crm_Cd_Desc.sql` → Cleaning of Crm_Cd ➡️ CrimeTypeID and Crm_Cd_Desc ➡️ CrimeTypeDescription
 ---
 
 ## Objective
@@ -44,9 +44,11 @@ The objective of this project is to:
 - **DateOfCrime** → [DATE]date the crime occurred, YY/MM/DD. January 1, 2020, to March 27, 2025.
 - **TimeOFCrime** → [TIME]time of crime, HH:MM, twenty-four hour format.
 - **LAPDdivisionID** → [INT]numerical code for LAPD division. 
-- **LAPDdivision** → [VARCHAR,500]name of LAPD division.
+- **LAPDdivision** → [VARCHAR,500]string name of LAPD division.
 - **ReportDistID** → [INT]reporting district code number for the incident.
 - **CrimeClass** → [INT]classification of seriousness of crime: 1 for serious, 2 for less serious.
+- **CrimeTypeID** → [INT]crime type code.
+- **CrimeTypeDescription** → [VARCHAR,500]string description of crime type code.
 ---
 
 ##  Tools & Technologies
