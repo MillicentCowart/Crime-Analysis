@@ -20,7 +20,8 @@
 - `Cleaning.Date_Rptd.sql` → Cleaning of Date_Rptd ➡️ ReportDate  
 - `Cleaning.DATE_OCC.TIME_OCC.sql` → Cleaning of DATE_OCC ➡️ DateOfCrime and TIME_OCC ➡️ TimeOfCrime
 - `Cleaning.AREA.AREA_NAME.sql` → Cleaning of AREA ➡️ LAPDdivisionID and AREA_NAME ➡️ LAPDdivision
-- `Cleaning.Rpt_Dist_No.sql` → Cleaning of Rpt_Dist_No ➡️ ReportDistID 
+- `Cleaning.Rpt_Dist_No.sql` → Cleaning of Rpt_Dist_No ➡️ ReportDistID
+- `Cleaning.Part_1-2.sql` → Cleaning of Part_1-2 ➡️ CrimeClass 
 
 ---
 
@@ -45,6 +46,7 @@ The objective of this project is to:
 - **LAPDdivisionID** → [INT]numerical code for LAPD division. 
 - **LAPDdivision** → [VARCHAR,500]name of LAPD division.
 - **ReportDistID** → [INT]reporting district code number for the incident.
+- **CrimeClass** → [INT]classification of seriousness of crime: 1 for serious, 2 for less serious.
 ---
 
 ##  Tools & Technologies
